@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><root><graph_data><![CDATA[{"subscribers": {"daily": {"data": [17732, 8644, 2656, 2385, 2262, 2048, 2186, 1802, 1589, 1295, 1126, 1024, 945, 1064, 1055, 1033, 893, 938, 834, 707, 812, 771, 760, 800, 809, 683, 659, 639, 697, 730, 638, 689, 621, 573, 559], "opt": {"hAxis": {"baselineColor": "transparent", "viewWindow": {}, "gridlines": {"color": "transparent"}, "slantedText": false, "textStyle": {"color": "#666"}}, "colors": ["#e62117"], "legend": {"position": "none"}, "tooltip": {"trigger": "none"}, "pointSize": 0, "chartArea": {"top": 30, "left": 67.0}, "enableInteractivity": false, "vAxis": {"minValue": 0, "maxValue": 17733, "titleTextStyle": {"color": "#666"}, "gridlines": {"color": "#f0f0f0"}, "baselineColor": "#e2e2e2", "textStyle": {"color": "#666"}}}}, "cumulative": {"data": [17732, 26376, 29032, 31417, 33679, 35727, 37913, 39715, 41304, 42599, 43725, 44749, 45694, 46758, 47813, 48846, 49739, 50677, 51511, 52218, 53030, 53801, 54561, 55361, 56170, 56853, 57512, 58151, 58848, 59578, 60216, 60905, 61526, 62099, 62658], "opt": {"hAxis": {"baselineColor": "transparent", "viewWindow": {}, "gridlines": {"color": "transparent"}, "slantedText": false, "textStyle": {"color": "#666"}}, "colors": ["#e62117"], "legend": {"position": "none"}, "tooltip": {"trigger": "none"}, "pointSize": 0, "chartArea": {"top": 30, "left": 67.0}, "enableInteractivity": false, "vAxis": {"minValue": 0, "maxValue": 62659, "titleTextStyle": {"color": "#666"}, "gridlines": {"color": "#f0f0f0"}, "baselineColor": "#e2e2e2", "textStyle": {"color": "#666"}}}}}, "watch-time": {"daily": {"data": [19679858.7833, 15783014.1833, 9157833.11667, 8207603.43333, 7754372.41667, 6800059.5, 7759600.25, 7186413.55, 6663084.36667, 6315750.95, 6881219.83333, 6915074.9, 6082273.25, 6913399.7, 6873562.46667, 6684541.4, 5969270.05, 6130482.08333, 5917876.03333, 4850934.18333, 4962443.18333, 4851797.53333, 4915329.33333, 5040720.05, 5427559.53333, 5146159.96667, 4246695.98333, 4215210.46667, 4375504.48333, 4353252.36667, 4336494.46667, 4610341.28333, 4662152.86667, 3775375.03333, 3766646.71667], "opt": {"hAxis": {"baselineColor": "transparent", "viewWindow": {}, "gridlines": {"color": "transparent"}, "slantedText": false, "textStyle": {"color": "#666"}}, "colors": ["#2793e6"], "legend": {"position": "none"}, "tooltip": {"trigger": "none"}, "pointSize": 0, "chartArea": {"top": 30, "left": 88.0}, "enableInteractivity": false, "vAxis": {"title": "Minutes watched", "minValue": 0, "maxValue": 19679859.7833, "titleTextStyle": {"color": "#666"}, "gridlines": {"color": "#f0f0f0"}, "baselineColor": "#e2e2e2", "textStyle": {"color": "#666"}}}}, "cumulative": {"data": [19679858.7833, 35462872.9667, 44620706.1, 52828309.5333, 60582681.9667, 67382741.4667, 75142341.7167, 82328755.2833, 88991839.65, 95307590.6167, 102188810.45, 109103885.367, 115186158.617, 122099558.333, 128973120.817, 135657662.217, 141626932.267, 147757414.367, 153675290.4, 158526224.6, 163488667.783, 168340465.333, 173255794.683, 178296514.733, 183724074.283, 188870234.25, 193116930.25, 197332140.733, 201707645.233, 206060897.6, 210397392.083, 215007733.367, 219669886.233, 223445261.267, 227211908.0], "opt": {"hAxis": {"baselineColor": "transparent", "viewWindow": {}, "gridlines": {"color": "transparent"}, "slantedText": false, "textStyle": {"color": "#666"}}, "colors": ["#2793e6"], "legend": {"position": "none"}, "tooltip": {"trigger": "none"}, "pointSize": 0, "chartArea": {"top": 30, "left": 95.0}, "enableInteractivity": false, "vAxis": {"title": "Minutes watched", "minValue": 0, "maxValue": 227211909.0, "titleTextStyle": {"color": "#666"}, "gridlines": {"color": "#f0f0f0"}, "baselineColor": "#e2e2e2", "textStyle": {"color": "#666"}}}}}, "shares": {"daily": {"data": [160592, 75317, 33020, 24544, 20414, 17731, 17855, 16044, 14417, 13529, 12801, 11660, 10352, 11090, 10387, 10031, 9638, 9350, 8855, 7861, 7943, 7641, 6753, 8043, 7649, 7181, 6366, 6221, 6400, 6224, 6149, 5876, 5695, 5404, 5198], "opt": {"hAxis": {"baselineColor": "transparent", "viewWindow": {}, "gridlines": {"color": "transparent"}, "slantedText": false, "textStyle": {"color": "#666"}}, "colors": ["#8882ef"], "legend": {"position": "none"}, "tooltip": {"trigger": "none"}, "pointSize": 0, "chartArea": {"top": 30, "left": 74.0}, "enableInteractivity": false, "vAxis": {"minValue": 0, "maxValue": 160593, "titleTextStyle": {"color": "#666"}, "gridlines": {"color": "#f0f0f0"}, "baselineColor": "#e2e2e2", "textStyle": {"color": "#666"}}}}, "cumulative": {"data": [160592, 235909, 268929, 293473, 313887, 331618, 349473, 365517, 379934, 393463, 406264, 417924, 428276, 439366, 449753, 459784, 469422, 478772, 487627, 495488, 503431, 511072, 517825, 525868, 533517, 540698, 547064, 553285, 559685, 565909, 572058, 577934, 583629, 589033, 594231], "opt": {"hAxis": {"baselineColor": "transparent", "viewWindow": {}, "gridlines": {"color": "transparent"}, "slantedText": false, "textStyle": {"color": "#666"}}, "colors": ["#8882ef"], "legend": {"position": "none"}, "tooltip": {"trigger": "none"}, "pointSize": 0, "chartArea": {"top": 30, "left": 74.0}, "enableInteractivity": false, "vAxis": {"minValue": 0, "maxValue": 594232, "titleTextStyle": {"color": "#666"}, "gridlines": {"color": "#f0f0f0"}, "baselineColor": "#e2e2e2", "textStyle": {"color": "#666"}}}}}, "views": {"daily": {"data": [6587359, 5259373, 3026138, 2764811, 2687324, 2396021, 2702453, 2480984, 2276278, 2153702, 2373176, 2427390, 2161459, 2399764, 2355775, 2288491, 2045575, 2128261, 2074910, 1708187, 1718574, 1679589, 1703894, 1762489, 1901910, 1814679, 1501926, 1465603, 1530071, 1521149, 1502957, 1604052, 1633414, 1322022, 1320630], "opt": {"hAxis": {"baselineColor": "transparent", "viewWindow": {}, "gridlines": {"color": "transparent"}, "slantedText": false, "textStyle": {"color": "#666"}}, "colors": ["#73c421"], "legend": {"position": "none"}, "tooltip": {"trigger": "none"}, "pointSize": 0, "chartArea": {"top": 30, "left": 81.0}, "enableInteractivity": false, "vAxis": {"minValue": 0, "maxValue": 6587360, "titleTextStyle": {"color": "#666"}, "gridlines": {"color": "#f0f0f0"}, "baselineColor": "#e2e2e2", "textStyle": {"color": "#666"}}}}, "cumulative": {"data": [6587359, 11846732, 14872870, 17637681, 20325005, 22721026, 25423479, 27904463, 30180741, 32334443, 34707619, 37135009, 39296468, 41696232, 44052007, 46340498, 48386073, 50514334, 52589244, 54297431, 56016005, 57695594, 59399488, 61161977, 63063887, 64878566, 66380492, 67846095, 69376166, 70897315, 72400272, 74004324, 75637738, 76959760, 78280390], "opt": {"hAxis": {"baselineColor": "transparent", "viewWindow": {}, "gridlines": {"color": "transparent"}, "slantedText": false, "textStyle": {"color": "#666"}}, "colors": ["#73c421"], "legend": {"position": "none"}, "tooltip": {"trigger": "none"}, "pointSize": 0, "chartArea": {"top": 30, "left": 88.0}, "enableInteractivity": false, "vAxis": {"minValue": 0, "maxValue": 78280391, "titleTextStyle": {"color": "#666"}, "gridlines": {"color": "#f0f0f0"}, "baselineColor": "#e2e2e2", "textStyle": {"color": "#666"}}}}}, "day": {"data": [1492498800000, 1492585200000, 1492671600000, 1492758000000, 1492844400000, 1492930800000, 1493017200000, 1493103600000, 1493190000000, 1493276400000, 1493362800000, 1493449200000, 1493535600000, 1493622000000, 1493708400000, 1493794800000, 1493881200000, 1493967600000, 1494054000000, 1494140400000, 1494226800000, 1494313200000, 1494399600000, 1494486000000, 1494572400000, 1494658800000, 1494745200000, 1494831600000, 1494918000000, 1495004400000, 1495090800000, 1495177200000, 1495263600000, 1495350000000, 1495436400000]}}]]></graph_data><return_code><![CDATA[0]]></return_code><html_content><![CDATA[
+
+      <div id="watch-actions-stats" class="watch-actions-stats-rats stats-cumulative top-selected-views" data-current-mode-css="stats-mode-cumulative" data-current-top-site-css="top-selected-views" data-current-metric-css="stats-metric-views">
+        <div class="stats-header">
+    <h1>
+      <span class="stats-header-text yt-card-title">Video statistics</span>
+<span class="stats-sub-header">Through May 22, 2017  
+  <span class="yt-uix-clickcard">
+    <button class="yt-uix-clickcard-target" aria-label="Learn more." aria-haspopup="true" data-position="topleft" type="button">
+      <span class="yt-help-icon yt-sprite"></span>
+    </button>
+    <span class="yt-uix-clickcard-content" role="dialog" aria-label="Learn more." aria-describedby="-838764243464872377">
+      <button class="yt-uix-clickcard-close" aria-label="Close learn more dialog."></button>
+      <p id="-838764243464872377">The video statistics shown below are updated daily. They may lag behind the view count shown directly beneath the video, which updates many times a day.
+      </p>
+    </span>
+  </span>
+
+</span>
+    </h1>
+
+  </div>
+
+        <table class="stats-bragbar-container yt-uix-button-group yt-uix-tabs" data-uix-tabs-selected-extra-class="yt-uix-button-toggled">
+    <tr>
+          <td class="stats-bragbar stats-bragbar-views yt-uix-button yt-uix-tabs-tab  yt-uix-tabs-selected yt-uix-button-toggled" data-uix-tabs-target-id="stats-chart-tab-views" data-top-site-css="top-selected-views" data-metric-css="stats-metric-views" style="border-bottom-color: #73c421">
+    <span class="metric-label">Views</span>
+    <div class="bragbar-metric-large">78,280,390</div>
+  </td>
+
+          <td class="stats-bragbar stats-bragbar-watch-time yt-uix-button yt-uix-tabs-tab " data-uix-tabs-target-id="stats-chart-tab-watch-time" data-top-site-css="top-selected-watch-time" data-metric-css="stats-metric-watch-time" style="border-bottom-color: #2793e6">
+    <span class="metric-label">Time watched</span>
+    <div class="bragbar-metric-large">432 <em>years</em></div>
+  </td>
+
+          <td class="stats-bragbar stats-bragbar-subscribers yt-uix-button yt-uix-tabs-tab " data-uix-tabs-target-id="stats-chart-tab-subscribers" data-top-site-css="top-selected-views" data-metric-css="stats-metric-subscribers" style="border-bottom-color: #e62117">
+    <span class="metric-label">Subscriptions driven</span>
+    <div class="bragbar-metric-large">62,658</div>
+  </td>
+
+          <td class="stats-bragbar stats-bragbar-shares yt-uix-button yt-uix-tabs-tab " data-uix-tabs-target-id="stats-chart-tab-shares" data-top-site-css="top-selected-views" data-metric-css="stats-metric-shares" style="border-bottom-color: #8882ef">
+    <span class="metric-label">Shares</span>
+    <div class="bragbar-metric-large">594,231</div>
+  </td>
+
+    </tr>
+  </table>
+
+  <div class="stats-charts-container">
+      <div id="stats-chart-tab-views" class="stats-chart-menu ">
+      </div>
+      <div id="stats-chart-tab-watch-time" class="stats-chart-menu  hid">
+            <span class="stats-menu-metric" >
+    <span class="metric-label">Average view duration</span>
+    <span class="menu-metric-value">2:54</span>
+  </span>
+
+      </div>
+      <div id="stats-chart-tab-subscribers" class="stats-chart-menu  hid">
+      </div>
+      <div id="stats-chart-tab-shares" class="stats-chart-menu  hid">
+      </div>
+
+    <div class="stats-chart-gviz"></div>
+
+      <div class="stats-chart-mode">
+<span class="yt-uix-button-group" data-button-toggle-group="required"><button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default start yt-uix-button-toggled stats-mode-button" type="button" onclick=";return false;" data-mode-css="stats-mode-cumulative" data-button-toggle="true"><span class="yt-uix-button-content">Cumulative
+</span></button><button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default end  stats-mode-button" type="button" onclick=";return false;" data-mode-css="stats-mode-daily" data-button-toggle="true"><span class="yt-uix-button-content">Daily
+</span></button></span>  
+  <span class="yt-uix-clickcard">
+    <button class="yt-uix-clickcard-target" aria-label="Learn more." aria-haspopup="true" data-position="topleft" type="button">
+      <span class="yt-help-icon yt-sprite"></span>
+    </button>
+    <span class="yt-uix-clickcard-content" role="dialog" aria-label="Learn more." aria-describedby="8272535666681475909">
+      <button class="yt-uix-clickcard-close" aria-label="Close learn more dialog."></button>
+      <p id="8272535666681475909">'Cumulative' shows the grand total for the video at the end of each day. 'Daily' shows the subtotal for each individual day.
+
+      </p>
+    </span>
+  </span>
+
+      </div>
+  </div>
+
+
+
+  </div>
+
+]]></html_content></root>

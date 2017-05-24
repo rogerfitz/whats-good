@@ -1,0 +1,76 @@
+<iframe width="420" height="315" src="https://www.youtube.com/embed/zmFm9Yp80dE" frameborder="0" allowfullscreen>
+</iframe>
+
+<iframe width="420" height="315" src="http://www.w3schools.com/html/tryit.asp?filename=tryhtml_default" frameborder="0" allowfullscreen>
+</iframe>
+
+
+    console.log( "ready!" );
+    loadPlayer();
+
+function getArtistId() {
+  return 'l-gQLqv9f4o';
+}
+
+function loadPlayer() { 
+  if (typeof(YT) == 'undefined' || typeof(YT.Player) == 'undefined') {
+
+    var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    
+    window.onYouTubePlayerAPIReady = function() {
+      onYouTubePlayer();
+    };
+  }
+}
+
+var player;
+
+function onYouTubePlayer() {
+  player = new YT.Player('player', {
+    height: '490',
+    width: '880',
+    videoId: getArtistId(),
+    playerVars: { controls:1, showinfo: 0, rel: 0, showsearch: 0, iv_load_policy: 3 },
+    events: {
+      'onStateChange': onPlayerStateChange,
+      'onError': catchError
+    }
+  });
+}
+
+  var done = false;
+  function onPlayerStateChange(event) {
+    if (event.data == YT.PlayerState.PLAYING && !done) {
+      // setTimeout(stopVideo, 6000);
+      done = true;
+    }
+    else if(event.data == YT.PlayerState.ENDED)
+    {
+      location.reload();
+    }
+  }
+
+  function onPlayerReady(event) {
+
+    //if(typeof(SONG.getArtistId()) == undefined)
+    //{
+    //  console.log("undefineeeed"); 
+    //} 
+    //event.target.playVideo();   
+  }
+  function catchError(event)
+  {
+    if(event.data == 100) console.log("De video bestaat niet meer");
+  }
+
+  function stopVideo() {
+    player.stopVideo();
+  }
+  
+  $.getJSON('http://whateverorigin.org/get?url=' + encodeURIComponent('https://www.youtube.com/embed/zmFm9Yp80dE') + '&callback=?', function(data){
+	$('body').append('div').html(data.contents);
+});
+    

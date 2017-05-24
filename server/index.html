@@ -1,0 +1,57 @@
+<html>
+<body>
+
+
+	<div id="left-tables">
+		<div id="dropdown">
+			<h2>Default Selection</h2>
+			<select id="defaultSelect">
+			  {% for quote in quotes %}
+				{% if quote['Default']==True %}
+					<option value="{{ quote.RealQuote }}" selected="selected">{{ quote.DisplayQuote }}</option>
+				{% else %}
+					<option value="{{ quote.RealQuote }}">{{ quote.DisplayQuote }}</option>
+				{% endif %}
+			  {% endfor %}
+			</select>
+		</div>
+		<div id="quote-div">
+		</div>
+	</div>
+	<div id="chart">
+		<div id="chart-header">
+			<h1 id="company-name"></h1>
+			<p id="exchange-date"></p>
+			<h2 id="current-price"></h2><p id="currency"></p><h2 id="price-change"></h2>
+			<p id="after-hours"></p>
+		</div>
+		<div id="svg-div">
+            <p id="day-filters">
+                <a class="date-change-link" href="#5d" onclick="changeDate(7);return false;">1w</a>
+                <a class="date-change-link" href="#1m" onclick="changeDate(30);return false;">1m</a>
+                <a class="date-change-link" href="#3m" onclick="changeDate(90);return false;">3m</a>
+                <a class="date-change-link" href="#6m" onclick="changeDate(180);return false;">6m</a>
+                <!--<a class="date-change-link" href="#YTD" onclick="changeDate(365);return false;">YTD</a>-->
+                <a class="date-change-link" href="#1y" onclick="changeDate(365);return false;">1y</a>
+                <a class="date-change-link" href="#5y" onclick="changeDate(1825);return false;">5y</a>
+                <a class="date-change-link" href="#10y" onclick="changeDate(3650);return false;">10y</a>
+                <a class="date-change-link" href="#All" onclick="changeDate(29000);return false;">All</a>
+            </p>
+			<svg></svg>
+		</div>
+	</div>
+
+	
+</body>
+<link rel="stylesheet" type="text/css" href="static/nv.d3.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="static/main.css">
+<script src="https://code.jquery.com/jquery-1.12.3.js"></script>
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/select/1.2.0/js/dataTables.select.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="static/nv.d3.min.js"></script>
+<script src="static/weekday.js"></script>
+<script src="static/chart.js"></script>
+<script src="static/main.js"></script>
+</html>

@@ -1,0 +1,114 @@
+#chart {
+	  float: left;
+  width: 75%;
+  margin: 1em;
+    height: 600px;
+}
+
+#defaultSelect{
+    text-overflow: ellipsis;
+    max-width: 90%;
+}    
+
+#chart-header, #chart-footer{
+	height:100px;
+	padding-left: 10px;
+}
+
+#svg-div{
+	height:400px
+	}
+#dropdown, #chart, #quote-table{
+	border: solid 1px gray;
+}
+
+#dropdown, #quote-table{
+text-align: center;
+}
+
+#dropdown{
+padding-bottom:10px;
+height: 70px;
+}
+#day-filters{
+    margin-left:20px;
+    margin-top:20px;
+    }
+#current-price, #currency, #price-change{
+    display: inline;
+    margin-right: 3px;
+}
+
+#current-price,#price-change {
+    font-size: 26px
+}
+
+.red-shade{
+    color: #DD4B39;
+}
+
+.green-shade{
+    color: #3D9400;
+}
+
+.date-change-link{
+    margin-right:3px;
+}
+
+#quote-table{
+		border-collapse: collapse;
+        overflow-y:scroll;
+		}
+
+#quote-div{
+	overflow-y:auto;
+    height:520px
+
+	}
+.highlight { 
+	background-color: #dcdcdc !important;
+}
+table{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	/*border: 1px solid black;*/
+}
+	/*tr:nth-child(even) {background-color: #f2f2f2}*/
+tr:hover {background-color: #f5f5f5}
+
+#left-tables{
+  float: left;
+  width: 20%;
+  margin: 1em;
+  height: 600px
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+	border: 1px solid black;
+}
+h1 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 28.4px;
+}
+h2 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
