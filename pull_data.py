@@ -32,7 +32,7 @@ def visitNode(uuid):
     Link = 'http://www.youtube.com/watch?v='+uuid
     r = requests.get(Link)
     soup = BeautifulSoup(r.content, "lxml")
-    title=soup.find('span',class_="watch-title").get("title")
+    #title=soup.find('span',class_="watch-title").get("title")
     rels=[]
     for order,side_item in enumerate(soup.find_all("a",class_="content-link")):
         rel_title=side_item.get("title")
